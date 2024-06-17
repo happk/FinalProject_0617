@@ -1,0 +1,13 @@
+prefix=D:/Desktop/ResNet/venv/Library
+exec_prefix=D:/Desktop/ResNet/venv/Library
+libdir=D:/Desktop/ResNet/venv/Library/lib
+sharedlibdir=D:/Desktop/ResNet/venv/Library/lib
+includedir=D:/Desktop/ResNet/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

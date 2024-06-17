@@ -1,0 +1,11 @@
+prefix=D:/Desktop/ResNet/venv/Library
+exec_prefix=D:/Desktop/ResNet/venv/Library
+libdir=D:/Desktop/ResNet/venv/Library/lib
+includedir=D:/Desktop/ResNet/venv/Library/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.19.6.0
+Libs: -L${libdir} -lprotobuf 
+Cflags: -I${includedir}
+Conflicts: protobuf-lite

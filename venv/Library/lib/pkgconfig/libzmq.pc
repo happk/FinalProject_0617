@@ -1,0 +1,12 @@
+prefix=D:/Desktop/ResNet/venv/Library
+exec_prefix=D:/Desktop/ResNet/venv/Library
+libdir=D:/Desktop/ResNet/venv/Library/lib
+includedir=D:/Desktop/ResNet/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
